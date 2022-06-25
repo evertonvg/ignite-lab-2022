@@ -4,7 +4,7 @@ import '@vime/core/themes/default.css'
 import { useGetLessonBySlugQuery } from './../graphql/generated';
 
 interface VideoProps{
-    lessonSlug:String;
+    lessonSlug:string;
 }
 
 export function Video(props: VideoProps){
